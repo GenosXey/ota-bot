@@ -14,21 +14,22 @@ Un bot Telegram de minage/parrainage écrit en Python avec Pyrogram.
 
 KingfoBot/
 │
-├── app/                            # 📂 Code source du bot
-│   ├── handlers/                   # 📂 Tous les gestionnaires de commandes & callbacks
-│   │   ├── start.py                # /start + gestion du parrainage
-│   │   ├── buttons.py              # Boutons clavier (mines, mon lien, règles, etc)
-│   │   ├── callback.py             # Gestion des boutons Inline
-│   │   └── bonus.py                # /bonus futur
+
+├── app/                           
+│   ├── handlers/                 
+│   │   ├── start.py               
+│   │   ├── buttons.py               
+│   │   ├── callback.py             
+│   │   └── bonus.py                 
 │   │
-│   ├── db.py                       # SQLite handler (création, requêtes utilisateurs)
-│   ├── keyboards.py                # Définition des claviers (Inline et Reply)
-│   └── config.py                   # Token, API_ID, API_HASH, etc.
+│   ├── db.py                      
+│   ├── keyboards.py                
+│   └── config.py                   
 │
-├── main.py                         # Point d’entrée principal, démarre le bot
-├── requirements.txt                # 📦 Dépendances Python
-├── Procfile                        # ⚙️ Démarrage automatique sur Koyeb
-└── README.md                       # ℹ️ Infos sur le projet
+├── main.py                          
+├── requirements.txt                
+├── Procfile                       
+└── README.md                       
 
 
 ## 🚀 Déploiement sur Koyeb
